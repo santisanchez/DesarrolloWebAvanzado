@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    width: 75%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+}
+
+.header img{
+    height: 100px;
+}

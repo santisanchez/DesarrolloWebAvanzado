@@ -52,3 +52,23 @@
     margin-bottom: 30px;
     padding: 20px;
 }
+.footer{
+    display: flex;
+    border: 1px solid black;
+    width: -webkit-fill-available;
+    margin: 25px;
+    padding: 15px 55px;
+}
+.footer img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.footer p{
+    text-align: center;
+    line-height: 70px;
+    margin-left: 50px;
+}
+body{
+    padding: 25px;
+}

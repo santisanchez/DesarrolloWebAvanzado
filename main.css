@@ -30,9 +30,39 @@
     padding: 25px;
 
 }
+
+.main_content{
+    display: grid;
+    grid:'content social';
+    grid-column-gap: 10%;
+}
+
+.main_content .social{
+    grid-area: social;
+    border: 1px solid black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_content .social button{
+    width: 100px;
+}
+.main_content .articles{
+    grid-area: content;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 25px;
+
+}
 .main_content .articles article{
     height: 150px;
     border: 1px solid black;
     margin-bottom: 30px;
     padding: 20px;
+}
 }

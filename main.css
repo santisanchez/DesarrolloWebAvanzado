@@ -18,3 +18,20 @@
 body{
     padding: 25px;
 }
+.footer{
+    display: flex;
+    border: 1px solid black;
+    width: -webkit-fill-available;
+    padding: 15px 55px;
+    margin-top: 40px;
+}
+.footer img{
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+.footer p{
+    text-align: center;
+    line-height: 70px;
+    margin-left: 50px;
+}

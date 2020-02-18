@@ -1,0 +1,104 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.section-1{
+    height: calc(100vh);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('assets/images/banner.jpg');
+}
+
+.section-1 .main-title{
+    color: yellow;
+    font-size: 210px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.section-1 .main-sub-title{
+    color: yellow;
+    font-size: 65px;
+    margin: 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+}
+
+.login-nav{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10%;
+    background-color: black;
+    height: 46px;
+}
+.login-nav button{
+    background-color: yellow;
+    border-radius: 25px;
+    margin: 6px 0;
+    border: none;
+    font-size: 20px;
+}
+
+.navbar .title{
+    color: yellow;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.navbar .title .sub-title {
+    color: yellow;
+    font-size: 6px;
+}
+.navbar{
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.navbar .links{
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.links li{
+    list-style-type: none;
+}
+
+.section-2{
+    height: 100vh;
+    margin: 0 10%;
+}
+
+.article{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.figure{
+    display: flex;
+}
+
+.figure img{
+    height: 200px;
+    width: 320px;
+}
+
+.article .figure .text-container{
+    margin-right: 30px;
+}
+.article .figure .text-container .title{
+    font-size: 30px;
+    color: rgb(243, 207, 97);
+}

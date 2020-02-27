@@ -1,0 +1,29 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+.container{
+    background-color: brown;
+    border: 5px solid #000;
+    display: flex;
+    height: 500px;
+    justify-content: space-evenly;
+    /*align-items: center*/
+}
+
+.item{
+    color: white;
+    font-weight: 900;
+    background-color: burlywood;
+    height: 30px
+}
+
+.item:nth-child(odd){
+    background-color: teal;
+}

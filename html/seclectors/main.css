@@ -1,0 +1,21 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+/* Agrupado */
+/* .description,.title{
+    color: greenyellow;
+} */
+/* Todos los hijos directos */
+.main > .description{
+    color: red;
+}
+
+
+.main + .description{
+    color: red;
+}
+
+.list:nth-child(){
+    background-color: red;
+}

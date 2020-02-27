@@ -1,0 +1,16 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+
+.table{
+    border-collapse: collapse;
+}
+
+.table td, .table th{
+    border: 1px solid black;
+}
+
+.column-yellow{
+    background-color: yellow;
+}

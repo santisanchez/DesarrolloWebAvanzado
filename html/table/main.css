@@ -1,0 +1,57 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+/*
+    base
+*/
+
+a{
+    text-decoration: none;
+}
+
+
+.title{
+    text-align: center;
+}
+
+
+/* MENU  */
+.main-menu{
+    display: flex;
+    background-color: hsl(240deg,60%,60%);
+    height: 3em;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.main-menu__item{
+    list-style-type: none;
+    margin-right: 1.5em;
+}
+
+.main-menu__link{
+    color: #000;
+}
+
+/* TABLE  */
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, .table th{
+    border: 1.5px solid blue;
+}
+
+.table th{
+    color: #fff;
+    background-color: hsl(240deg,40%,70%);
+    text-transform: uppercase;
+}
+
+.table:before{
+    background-color: red;
+    width: 10px;
+}

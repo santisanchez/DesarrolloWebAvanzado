@@ -1,0 +1,27 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+.container{
+    display: grid;
+
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: repeat(2, 300px) auto;
+    grid-template-areas: 
+        'sidebar-1 content sidebar-2'
+        'sidebar-1 content sidebar-2'
+        'footer footer footer';
+    gap: 20px;
+}
+
+.item{
+    background-color: yellow;
+}
+
+.item-1{
+    grid-column: sidebar-1-start / sidebar-2-end;
+}

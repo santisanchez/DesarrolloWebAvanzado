@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+  font-size: 3em;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {}
+
+
+#container {
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(9,50px);
+  grid-template-rows: 33% 67%;
+  grid-template-areas: "img0 img1 img2 img2 img2 img3 img4 img5 img5" "img6 img6 img6 img7 img8 img8 img8 img9 img9";
+  gap: 0;
+}
+
+#container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#container .image_0{
+  grid-area: img0;
+}
+
+#container .image_1{
+  grid-area: img1;
+}
+#container .image_2{
+  grid-area: img2;
+}
+#container .image_3{
+  grid-area: img3;
+}
+#container .image_4{
+  grid-area: img4;
+}
+#container .image_5{
+  grid-area: img5;
+}
+
+#container .image_6{
+  grid-area: img6;
+}
+#container .image_7{
+  grid-area: img7;
+}
+#container .image_8{
+  grid-area: img8;
+}
+#container .image_9{
+  grid-area: img9;
+}

@@ -46,7 +46,6 @@ const generateVehicleRows = async ()=>{
 }
 const table = createElement('table',{class:'table'},[tableHeader]);
 generateVehicleRows().then((vehicles)=>{
-    console.log(vehicles);
     vehicles.forEach(vehicle => {
         table.appendChild(vehicle);
     });
